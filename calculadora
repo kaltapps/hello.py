@@ -1,0 +1,20 @@
+
+operaciones = input("Que quieres hacer primero ( dibidir / multiplicar / sumar / restar )")
+primer_numero = int(input("dime un numero: "))
+segundo_numero = int(input("dime un numero "))
+
+if operaciones == "sumar":
+    resultado = primer_numero + segundo_numero
+    print("resultado de la suma es {}".format(resultado))
+
+elif operaciones == "dibidir":
+    resultado = primer_numero / segundo_numero
+    print("resultado de la dibision es {}".format(resultado))
+
+elif operaciones =="multiplicar":
+    resultado = primer_numero * segundo_numero
+    print("resultado de la multiplicacion es {}".format(resultado))
+
+elif operaciones == "restar":
+    resultado = primer_numero - segundo_numero
+    print("resultado de la resta {}".format(resultado))
